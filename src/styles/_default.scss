@@ -71,3 +71,27 @@ body {
     }
   }
 }
+
+.modal {
+  backdrop-filter: blur(8px);
+
+  &-header {
+    background: $color-green;
+    color:$color-white;
+    border-bottom: none;
+  }
+
+  &-body {
+    background: $bg-card;
+  }
+}
+
+.close {
+  opacity: 1;
+  text-shadow: none;
+}
+
+.decorate {
+  color: $color-white;
+}
+  
