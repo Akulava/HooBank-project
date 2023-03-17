@@ -25,9 +25,25 @@
             }
         }
     }
+
     &__image {
         display: flex;
         justify-content: center;
+    }
+
+    &-1,
+    &-2 {
+        margin-top: $m-10;
+    }
+
+    &-4 {
+        .cards {
+          position: absolute;
+          top: 18rem;
+          right: 7rem;
+
+          z-index: 2;
+        }
     }
 }
   
