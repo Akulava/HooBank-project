@@ -28,7 +28,7 @@ body {
   text-align: center;
   letter-spacing: .2rem;
   line-height: 55px;
-  color: $color-green;
+  color: $color-blue;
 
   cursor: pointer;
 
@@ -133,4 +133,39 @@ body {
   top: -2rem;
 
   z-index: 1;
+}
+
+.around {
+  height: 45rem;
+  border: 5px solid $color-green;
+  border-radius: 50%;
+
+.title {
+  transform: rotateZ(25deg);
+}
+
+  &-2,
+  &-3,
+  &-4,
+  &-5 {
+  border: 5px solid $color-green;
+  border-radius: 50%;
+  }
+
+  &-2 {
+    height: 35rem;
+  }
+
+  &-3 {
+    height: 25rem;
+  }
+
+
+  &-4 {
+    height: 15rem;
+  }
+
+  &-5 {
+    height: 5rem;
+  }
 }
